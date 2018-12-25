@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="40" tilewidth="32" tileheight="32" nextobjectid="89">
+ <tileset firstgid="1" name="tranzitie" tilewidth="32" tileheight="32" tilecount="57" columns="3">
+  <image source="tranzitie.png" width="96" height="608"/>
+ </tileset>
+ <tileset firstgid="58" name="caramida " tilewidth="32" tileheight="32" tilecount="8" columns="2">
+  <image source="caramida .png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="66" name="piatra" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="piatra.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="84" name="32" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="32.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="85" name="ciuperci" tilewidth="32" tileheight="32" tilecount="6" columns="2">
+  <image source="ciuperci.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="91" name="gargouille" tilewidth="32" tileheight="32" tilecount="16" columns="4">
+  <image source="gargouille.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="107" name="iarba" tilewidth="32" tileheight="32" tilecount="4" columns="2">
+  <image source="iarba.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="111" name="liane" tilewidth="32" tileheight="32" tilecount="25" columns="5">
+  <image source="liane.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="136" name="muschi" tilewidth="32" tileheight="32" tilecount="6" columns="3">
+  <image source="muschi.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="142" name="obiecte" tilewidth="32" tileheight="32" tilecount="9" columns="3">
+  <image source="obiecte.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="151" name="platforma caramizi" tilewidth="32" tileheight="32" tilecount="4" columns="2">
+  <image source="platforma caramizi.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="155" name="platforma lemn" tilewidth="32" tileheight="32" tilecount="3" columns="3">
+  <image source="platforma lemn.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="158" name="SCANDURI" tilewidth="32" tileheight="32" tilecount="4" columns="2">
+  <image source="SCANDURI.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="162" name="tufisuri" tilewidth="32" tileheight="32" tilecount="12" columns="3">
+  <image source="tufisuri.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="174" name="usa -gems" tilewidth="32" tileheight="32" tilecount="4" columns="2">
+  <image source="usa -gems.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="178" name="culoare" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="culoare.png" width="32" height="32"/>
+ </tileset>
+ <layer name="colour" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztz0ENADAMA7HwhzOE41Cpj2y2dAAuAQBg23kkv3799ubXr9/e/Pr125tfv3578+v3x18AAOYurHu3bw==
+  </data>
+ </layer>
+ <layer name="background" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztl4sKgzAMRfNd29hgD/di/v/nzIBlMUtMRVvcuAeC0IrpMSVWIgAAAAAAAABYD00f/05jxK/jOViuzy7uIjw2Kmqj82/FnFU7z++hnmvVXOeq6e05Ji5k1zG5ar+cfHv69pRjJbEcJTca1u9FH9/rzNw7qlvrLcW+Guk/tbYe7H2g8vt6qmtJdK1LsCZfxtrfS5Lrm9YR3X/s4jxrRcN8SzLWk70+EvlyL29pnrPMXQLtEPVMy/nUR+rbrRjjyPEv7RmR+53gPSzPFNbZkq+Rt+Vb033M1zt/0MicrHv6bkd7aS2+jPePkPsOrBwAAAAAAACA8rwBndg5Iw==
+  </data>
+ </layer>
+ <layer name="background2" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1kkOwjAMQFGfiw2HyAGYp97/AHhBpAq5GUqdFPhP8qakxnGbpCIAAAAAsB7hFb8uyP/N9RulareuLzHXcY4WfSt9F61xn9S3MXJ7mrvmgvisV6+84/xrE5+5Ry9zdhp7jYPGccH/zun1bE8aZ42LxtWhhimee1cq503jrvHQGArvqRnTIoeVM3X+xN+2lTWscW+IcntDMMblevQ+rrZPPftV+j1QcjbPOeN7SdVizbXmvZjK00vpOhex51a6FgAAAAC08QTAJCUw
+  </data>
+ </layer>
+ <layer name="shadow" width="60" height="40" opacity="0.5">
+  <data encoding="base64" compression="zlib">
+   eJztz0ENADAMA7GAHH8s41Cpj2y2dAAuAQBg23kkv3799ubXr9/e/Pr125tfv3578+v3x18AAOYudnRIMA==
+  </data>
+ </layer>
+ <objectgroup name="decoru">
+  <object id="10" gid="128" x="544" y="574" width="32" height="32"/>
+  <object id="11" gid="111" x="695" y="606" width="32" height="32"/>
+  <object id="12" gid="118" x="1183.14" y="605.591" width="32" height="32"/>
+  <object id="13" gid="123" x="919.875" y="508.375" width="32" height="32"/>
+  <object id="15" gid="111" x="1490.92" y="604.083" width="32" height="32"/>
+  <object id="25" gid="164" x="1108.67" y="801.333" width="32" height="32"/>
+  <object id="27" gid="167" x="1470" y="802" width="32" height="32"/>
+ </objectgroup>
+ <layer name="scanduri" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20Hb6AAAAAAAAAAAAB4DCWAAAE=
+  </data>
+ </layer>
+ <layer name="playground" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmG1LAzEMgKMgE8XBEAYKiv4BRT/q2MCX6RwO//+vseUaCLGx6a293ocEni9lXPLkmrve1gCwNgzDMAzDMKryxLhyXDeq5cJxGalJQ1/fls59fE8C+/ii843jtoLXg+Mxwr3SjXKamTvVv329Y24pL8kx1y3GVJl3Fbw1+3zr2AS+oIsFudYykWtS2JFyluGsme0tcZSCunOew28+Sc9Kz5PkjLl5rdIe17j+5xvLh+61naXcvI4N/N27mqDO2lzfCo8c8H2gyd8i3qG871hdfZT0vYPuPTFm35J7Gud3zL4+St5jdB5zlPTdOT6GLV8d/nl+5PiBss8s7/w2oIc2vO8xlHWlzq+OOXT7m59F+IwveqyvIusvIS/vN15nqO82nGs89+Z4LYX1w8g6ziafKexPC+cDof7zjD7Mgu8sw7fF97l0zp6E+qcJ/PcOfebg3CB8fR76GMuJZ/ja3tJ/EDV6vkv0mXrXvteGYRiGYRgGwC9IcxCF
+  </data>
+ </layer>
+ <layer name="liane" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztl1uOwyAMRdkj+0voTqd8WHWv/ASUzoePhNogY67BJqS1oiiKoiiK4ik6a55dpG9Hw5NE4u3wf1fjk3FKc3nzY5zdadfi/FkdUaRxmnZP6+QCm8uw1dYuovVETlj+xru9oKHN7LvBhp6z82m2p+D+aE9or6be0T76uQ1qwPyV8pn6umOn6TsBxqtpoP2iuFEHH8PXibfhjIto3IF8cD0vR8No33mNa2VBuYF9iFQfJ+oXx9Ico+m1J3EHx1g5rvVHztBd+Nreji3aS2h1IuW9tubSe+QXXM3P5dH0tYucc5Nfxkjc7ZPLFpHa5j7xnON9qzGfWKtMHKfm2T2vVsdH9nUHrOXJjt4Ov1me2FvtjF5Buz9ntUh+szqsObQ7/grSvV3SYN35Ld8ZDRk/O99H6DOz5yfitWxPvoOi33pW3US+97S6kZ41XyeIatX6szUVOXP+w52iKIqiKIqi+OYPNM2HRg==
+  </data>
+ </layer>
+ <objectgroup name="decoro">
+  <object id="17" gid="85" x="416.5" y="811.5" width="32" height="32"/>
+  <object id="18" gid="90" x="720" y="813" width="32" height="32"/>
+  <object id="19" gid="108" x="323" y="769.667" width="32" height="32"/>
+  <object id="20" gid="136" x="535.333" y="811.667" width="32" height="32"/>
+  <object id="21" gid="137" x="544.667" y="807.667" width="32" height="32"/>
+  <object id="22" gid="141" x="772.333" y="817.667" width="32" height="32"/>
+  <object id="23" gid="140" x="924.667" y="817.667" width="32" height="32"/>
+  <object id="24" gid="166" x="1089" y="800.667" width="32" height="32"/>
+  <object id="30" gid="114" x="943.333" y="811" width="32" height="32"/>
+  <object id="31" gid="88" x="1154.33" y="813.667" width="32" height="32"/>
+  <object id="32" gid="136" x="1350" y="809" width="32" height="32"/>
+  <object id="33" gid="140" x="1332.67" y="816.667" width="32" height="32"/>
+  <object id="34" gid="141" x="1284.33" y="817" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="ground">
+  <object id="36" x="249.25" y="800" width="358.75" height="140"/>
+  <object id="39" x="255" y="768" width="97" height="62.25"/>
+  <object id="40" x="222" y="529.5" width="97.75" height="254.75"/>
+  <object id="42" x="254.957" y="545.6" width="97" height="62.25"/>
+  <object id="43" x="250" y="492" width="134" height="84"/>
+  <object id="45" x="345.875" y="501.625" width="70.25" height="42.5"/>
+  <object id="47" x="383" y="468.25" width="481" height="43.7461"/>
+  <object id="48" x="544" y="453" width="288" height="90.9922"/>
+  <object id="55" x="640" y="534.182" width="160" height="41.8221"/>
+  <object id="57" x="798.25" y="410.75" width="161.746" height="69.2578"/>
+  <object id="58" x="927.5" y="415" width="95.1172" height="33.0117"/>
+  <object id="59" x="992.033" y="438.545" width="696.633" height="41.4323"/>
+  <object id="62" x="1088.11" y="464" width="223.889" height="80.0444"/>
+  <object id="64" x="1119.99" y="541.595" width="128.034" height="33.8904"/>
+  <object id="66" x="1298.25" y="479.25" width="45.7333" height="32.75"/>
+  <object id="69" x="1375.99" y="479.75" width="131.636" height="32.2611"/>
+  <object id="70" x="1472" y="512.364" width="53.2727" height="31.6403"/>
+  <object id="71" x="1503.98" y="540.375" width="35.8347" height="35.6472"/>
+  <object id="73" x="1536.01" y="544.75" width="72.2389" height="127.239"/>
+  <object id="74" x="1568.04" y="659.273" width="57.4111" height="83.4229"/>
+  <object id="75" x="1503.94" y="736.062" width="65.0625" height="64.6875"/>
+  <object id="76" x="1471.96" y="800.188" width="29.0444" height="112.062"/>
+  <object id="77" x="587.5" y="896.006" width="917.75" height="47.2444"/>
+  <object id="79" x="703.969" y="800" width="96.0625" height="102.333"/>
+  <object id="80" x="896" y="800" width="96.0948" height="122.909"/>
+  <object id="81" x="1088.04" y="800.067" width="96.0948" height="122.909"/>
+  <object id="82" x="1280" y="799.996" width="96.0948" height="122.909"/>
+ </objectgroup>
+ <objectgroup name="spawn">
+  <object id="83" x="420.333" y="650.333" width="40.6667" height="36.3333">
+   <properties>
+    <property name="index" type="int" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="nivel">
+  <object id="87" x="1200" y="816" width="64" height="64">
+   <properties>
+    <property name="name" value="4"/>
+   </properties>
+  </object>
+  <object id="88" x="1392" y="816" width="64" height="64">
+   <properties>
+    <property name="name" value="5"/>
+   </properties>
+  </object>
+  <object id="85" x="816" y="816" width="64" height="64">
+   <properties>
+    <property name="name" value="2"/>
+   </properties>
+  </object>
+  <object id="84" x="624" y="816" width="64" height="64">
+   <properties>
+    <property name="name" value="1"/>
+   </properties>
+  </object>
+  <object id="86" x="1008" y="816" width="64" height="64">
+   <properties>
+    <property name="name" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
